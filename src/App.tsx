@@ -1,10 +1,11 @@
 import Layout from './components/layout/Layout';
+import { Home } from './pages/Home';
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <div className='h-[300px]'>home</div>
+        <Home />
       </Layout>
     </div>
   );
